@@ -53,6 +53,7 @@ In your project directory, install the necessary dependencies using the provided
 
 ## Directory Structure
 
+```plaintext
 0x00-ES6_basic/
 │
 ├── 0-constants.js
@@ -67,14 +68,15 @@ In your project directory, install the necessary dependencies using the provided
 ├── package.json
 ├── babel.config.js
 └── .eslintrc.js
+```
 
 ## Tasks
 
 ### Task 0: Const or Let?
-Modify taskFirst to use const and taskNext to use let.
+Modify `taskFirst` to use `const` and `taskNext` to use `let`.
 
 ### Task 1: Block Scope
-Modify taskBlock to avoid variable overwriting inside conditional blocks.
+Modify `taskBlock` to avoid variable overwriting inside conditional blocks.
 
 ### Task 2: Arrow Functions
 Rewrite a standard function using ES6 arrow syntax.
