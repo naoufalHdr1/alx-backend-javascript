@@ -101,7 +101,7 @@ Rewrite a function to use ES6 computed property names on an object.
 
 ## Running Tests
 
-To run the tests for this project, use the following command:
+To run the tests for this project, use the following command:\
     ```bash
     npm run dev <filename>
     ```
@@ -112,7 +112,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Acknowledgments
 
-[ECMAScript 6 - ECMAScript 2015](https://intranet.alxswe.com/rltoken/NW1dFLFExQ12_hD8yvkV3A)
+[ECMAScript 6 - ECMAScript 2015](https://intranet.alxswe.com/rltoken/NW1dFLFExQ12_hD8yvkV3A)\
 [MDN Web Docs - JavaScript](https://github.com/mbeaudru/modern-js-cheatsheet)
 
 ### Instructions for Use:
