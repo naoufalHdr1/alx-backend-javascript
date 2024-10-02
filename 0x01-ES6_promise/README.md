@@ -60,7 +60,6 @@ Ensure you have the following configuration files in your project directory:
 - `uploadPhoto` returns:
 
 ```json
-Copy code
 {
   "status": 200,
   "body": "photo-profile-1"
