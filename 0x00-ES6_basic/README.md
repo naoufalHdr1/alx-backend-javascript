@@ -74,6 +74,23 @@ In your project directory, install the necessary dependencies using the provided
 
 ### Task 0: Const or Let?
 Modify `taskFirst` to use `const` and `taskNext` to use `let`.
+```js
+export function taskFirst() {
+  var task = 'I prefer const when I can.';
+  return task;
+}
+
+export function getLast() {
+  return ' is okay';
+}
+
+export function taskNext() {
+  var combination = 'But sometimes let';
+  combination += getLast();
+
+  return combination;
+}
+```
 
 ### Task 1: Block Scope
 Modify `taskBlock` to avoid variable overwriting inside conditional blocks.
