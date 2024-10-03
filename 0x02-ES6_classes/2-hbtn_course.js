@@ -3,9 +3,9 @@
 class HolbertonCourse {
   constructor(name, length, students) {
     // Type validation for the constructor
-    this._name = this._validateName(name);
-    this._length = this._validateLength(length);
-    this._students = this._validateStudents(students);
+    this._name = HolbertonCourse._validateName(name);
+    this._length = HolbertonCourse._validateLength(length);
+    this._students = HolbertonCourse._validateStudents(students);
   }
 
   // Validation methods

@@ -4,8 +4,8 @@ import Currency from './3-currency';
 
 class Pricing {
   constructor(amount, currency) {
-    this._amount = this._validateAmount(amount);
-    this._currency = this._validateCurrency(currency);
+    this._amount = Pricing._validateAmount(amount);
+    this._currency = Pricing._validateCurrency(currency);
   }
 
   // Validation methods
