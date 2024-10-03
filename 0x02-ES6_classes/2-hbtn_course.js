@@ -45,15 +45,15 @@ class HolbertonCourse {
 
   // Setters with validation
   set name(name) {
-    this._name = this._validateName(name);
+    this._name = HolbertonCourse._validateName(name);
   }
 
   set length(length) {
-    this._length = this._validateLength(length);
+    this._length = HolbertonCourse._validateLength(length);
   }
 
   set students(students) {
-    this._students = this._validateStudents(students);
+    this._students = HolbertonCourse._validateStudents(students);
   }
 }
 
