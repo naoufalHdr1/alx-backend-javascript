@@ -6,9 +6,9 @@ class EVCar extends Car {
     this._range = range;
   }
 
-  // eslint-disable-next-line class-methods-use-this
-  cloneCar() {
-    return new Car();
+  // Override Symbol.species to return Car instead of EVCar
+  static get [Symbol.species]() {
+    return Car;
   }
 }
 

@@ -5,9 +5,13 @@ class Car {
     this._color = color;
   }
 
+  static get [Symbol.species]() {
+    return this;
+  }
+
   // Method to clone the car
   cloneCar() {
-    return new this.constructor();
+    return new this.constructor[Symbol.species]();
   }
 }
 
