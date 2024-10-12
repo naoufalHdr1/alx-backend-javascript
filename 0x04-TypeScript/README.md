@@ -124,3 +124,16 @@ Define a `Subjects` literal type:
 1. Namespace `Subjects`:
 
 - Create interfaces and classes in a namespace `Subjects` and use declaration merging to extend the `Subjects` namespace with additional functionality.
+
+## Task 10: Update `task_4/js/main.ts`
+
+- Create Constants: Export constants `cpp`, `java`, and `react` for each subject.
+- Define Teacher Object: Create `cTeacher` with `experienceTeachingC = 10`.
+- Log Subject Information: For each subject (Cpp, Java, React), log the subject name, set `cTeacher` as the teacher, and call `getRequirements` and `getAvailableTeacher` methods.
+
+## Task 11: Brand Convention & Nominal Typing
+
+Create Directory: Make a `task_5` directory and copy `package.json`, `tsconfig.json`, and `webpack.config.js`.
+Define Interfaces: Create `MajorCredits` and `MinorCredits` interfaces with `credits` and unique `brand` properties.
+Implement Functions: Create `sumMajorCredits` and `sumMinorCredits` functions to sum the credits of each interface.
+
