@@ -133,6 +133,6 @@ Define a `Subjects` literal type:
 
 ### Task 11: Brand Convention & Nominal Typing
 
-Create Directory: Make a `task_5` directory and copy `package.json`, `tsconfig.json`, and `webpack.config.js`.
-Define Interfaces: Create `MajorCredits` and `MinorCredits` interfaces with `credits` and unique `brand` properties.
-Implement Functions: Create `sumMajorCredits` and `sumMinorCredits` functions to sum the credits of each interface.
+- Create Directory: Make a `task_5` directory and copy `package.json`, `tsconfig.json`, and `webpack.config.js`.
+- Define Interfaces: Create `MajorCredits` and `MinorCredits` interfaces with `credits` and unique `brand` properties.
+- Implement Functions: Create `sumMajorCredits` and `sumMinorCredits` functions to sum the credits of each interface.
