@@ -58,7 +58,7 @@ Namespaces: Learn how to organize code using namespaces and the benefits they of
 
 - Create an example object that conforms to the `Teacher` interface, and log it to the console.
 
-## Task 2: Extending the Teacher class
+### Task 2: Extending the Teacher class
 
 1. Extend the `Teacher` interface:
 
@@ -68,7 +68,7 @@ Namespaces: Learn how to organize code using namespaces and the benefits they of
 
 - Create an object of type `Directors` and log it to the console.
 
-## Task 3: Printing teachers
+### Task 3: Printing teachers
 
 1. Define the `printTeacher` function:
 
@@ -78,7 +78,7 @@ Namespaces: Learn how to organize code using namespaces and the benefits they of
 
 - Define an interface `printTeacherFunction` that describes the shape of this function.
 
-## Task 4: Writing a class
+### Task 4: Writing a class
 
 1. Define a `StudentClass`:
 
@@ -88,7 +88,7 @@ Namespaces: Learn how to organize code using namespaces and the benefits they of
 
 - Define both the constructor and the class using interfaces.
 
-## Task 5: Advanced types Part 1
+### Task 5: Advanced types Part 1
 
 1. Create interfaces:
 
@@ -98,20 +98,20 @@ Namespaces: Learn how to organize code using namespaces and the benefits they of
 
 - Implement a function that creates either a `Director` or a `Teacher` depending on the salary argument.
 
-## Task 6: Creating functions specific to employees
+### Task 6: Creating functions specific to employees
 
 1. Define `isDirector` and `executeWork`:
 
 - Write a function that checks if an employee is a `Director` and another that executes the respective work based on the role.
 
-## Task 7: String literal types
+### Task 7: String literal types
 
 Define a `Subjects` literal type:
 
 - Create a literal type `Subjects` that can only be `"Math"` or `"History"`.
 - Implement a function `teachClass` that returns different strings based on the subject.
 
-## Task 8: Ambient Namespaces
+### Task 8: Ambient Namespaces
 
 1. Create a namespace and ambient file:
 
@@ -119,21 +119,20 @@ Define a `Subjects` literal type:
 - Create an ambient declaration file for `crud.js` and write the necessary TypeScript types.
 - Use these types in `main.ts` and demonstrate calling the `CRUD` functions.
 
-## Task 9: Namespace & Declaration merging
+### Task 9: Namespace & Declaration merging
 
 1. Namespace `Subjects`:
 
 - Create interfaces and classes in a namespace `Subjects` and use declaration merging to extend the `Subjects` namespace with additional functionality.
 
-## Task 10: Update `task_4/js/main.ts`
+### Task 10: Update `task_4/js/main.ts`
 
 - Create Constants: Export constants `cpp`, `java`, and `react` for each subject.
 - Define Teacher Object: Create `cTeacher` with `experienceTeachingC = 10`.
 - Log Subject Information: For each subject (Cpp, Java, React), log the subject name, set `cTeacher` as the teacher, and call `getRequirements` and `getAvailableTeacher` methods.
 
-## Task 11: Brand Convention & Nominal Typing
+### Task 11: Brand Convention & Nominal Typing
 
 Create Directory: Make a `task_5` directory and copy `package.json`, `tsconfig.json`, and `webpack.config.js`.
 Define Interfaces: Create `MajorCredits` and `MinorCredits` interfaces with `credits` and unique `brand` properties.
 Implement Functions: Create `sumMajorCredits` and `sumMinorCredits` functions to sum the credits of each interface.
-
