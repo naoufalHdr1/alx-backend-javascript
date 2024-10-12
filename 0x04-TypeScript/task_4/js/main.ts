@@ -1,14 +1,8 @@
-/// <reference path="./subjects/Teacher.ts" />
-/// <reference path="./subjects/Subject.ts" />
-/// <reference path="./subjects/Cpp.ts" />
-/// <reference path="./subjects/React.ts" />
-/// <reference path="./subjects/Java.ts" />
+export const cpp: Subjects.Cpp = new Subjects.Cpp();
+export const java: Subjects.Java = new Subjects.Java();
+export const react: Subjects.React = new Subjects.React();
 
-const cpp = new Subjects.Cpp();
-const java = new Subjects.Java();
-const react = new Subjects.React();
-
-const teacher: Subjects.Teacher = {
+export const cTeacher: Subjects.Teacher = {
   firstName: "John",
   lastName: "Doe",
   experienceTeachingC: 10,
@@ -22,13 +16,16 @@ java.setTeacher(teacher);
 react.setTeacher(teacher);
 
 // Testing Cpp class
+console.log('C++');
 console.log(cpp.getRequirements()); // Output: Here is the list of requirements for Cpp
 console.log(cpp.getAvailableTeacher()); // Output: Available Teacher: John
 
 // Testing Java class
+console.log('Java');
 console.log(java.getRequirements()); // Output: Here is the list of requirements for Java
 console.log(java.getAvailableTeacher()); // Output: Available Teacher: John
 
 // Testing React class
+console.log('React');
 console.log(react.getRequirements()); // Output: Here is the list of requirements for React
 console.log(react.getAvailableTeacher()); // Output: Available Teacher: John
