@@ -4,7 +4,7 @@
  * @param message - The message to be printed.
  */
 function displayMessage (message) {
-  process.stdout.write(message + '\n');
+  console.log(message);
 }
 
 module.exports = displayMessage;
