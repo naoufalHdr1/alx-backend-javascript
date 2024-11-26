@@ -3,8 +3,8 @@
  *
  * @param message - The message to be printed.
  */
-function displayMessage (message) {
+const displayMessage = (message) => {
   console.log(message);
-}
+};
 
 module.exports = displayMessage;
