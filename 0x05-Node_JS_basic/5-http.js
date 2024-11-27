@@ -1,5 +1,4 @@
 const fs = require('fs');
-const path = require('path');
 const http = require('http');
 const url = require('url');
 
@@ -34,8 +33,7 @@ const countStudents = (filePath) => {
       });
 
       const totalStudents = Object.values(fields).reduce(
-        (sum, students) => sum + students.length,
-        0
+        (sum, students) => sum + students.length, 0
       );
 
       let result = `Number of students: ${totalStudents}\n`;
