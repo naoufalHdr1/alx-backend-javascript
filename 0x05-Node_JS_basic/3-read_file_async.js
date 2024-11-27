@@ -8,12 +8,12 @@ const fs = require('fs').promises;
  *
  * @throws {Error} If the file cannot be read or if there is no valid data in the file.
  */
-async function countStudents (path) {
+async function countStudents(path) {
   try {
     const data = await fs.readFile(path, 'utf8');
     const lines = data.split('\n');
     const headers = lines[0].split(',');
-    const students = lines.slice(1).filter(line => line.trim() !== '');
+    const students = lines.slice(1).filter((line) => line.trim() !== '');
     console.log(`Number of students: ${students.length}`);
 
     const fieldIndex = headers.indexOf('field');
