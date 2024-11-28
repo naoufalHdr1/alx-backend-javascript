@@ -1,7 +1,7 @@
-const readDatabase = require('../utils.js');
+const readDatabase = require('../utils');
 
 class StudentsController {
-  static async getAllStudents (req, res) {
+  static async getAllStudents(req, res) {
     const { filePath } = req.app.locals;
 
     try {
@@ -19,7 +19,7 @@ class StudentsController {
     }
   }
 
-  static async getAllStudentsByMajor (req, res) {
+  static async getAllStudentsByMajor(req, res) {
     const { filePath } = req.app.locals;
     const { major } = req.params;
 
