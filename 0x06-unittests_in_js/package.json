@@ -1,15 +1,13 @@
 {
   "name": "0x06-unittests_in_js",
   "version": "1.0.0",
-  "description": "## Project Overview",
-  "main": "index.js",
+  "description": "Unit testing in JavaScript with Mocha and Chai",
+  "type": "module",
   "scripts": {
     "test": "mocha"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "chai": "^5.1.2"
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
   }
 }
