@@ -9,12 +9,15 @@ function calculateNumber (type, a, b) {
   } else if (type === 'SUBTRACT') {
     return roundedA - roundedB;
   } else if (type === 'DIVIDE') {
-    if (b == 0)
+    if (roundedB === 0)
       return 'Error';
     return roundedA / roundedB;
   }
 
   throw new Error('Invalid operation type');
 }
+
+console.log(Math.round(0.3));
+
 
 module.exports = calculateNumber;
